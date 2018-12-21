@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Gavin Lim</title>
-		<!-- link to main stylesheet -->
+		<title> Gavin Lim </title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
+
+	<body>
+		<h1> Heading 1 </h1>
+
+		<p> paragraph 1 </p>
+	</body>
 
 </html>
