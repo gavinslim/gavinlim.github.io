@@ -18,6 +18,13 @@ h6 {
   font-family: 'Montserrat';
 }
 
+.right-image-section {
+    padding: 100px 100px 100px 140px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;

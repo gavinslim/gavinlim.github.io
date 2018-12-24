@@ -41,12 +41,11 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">Education</a>
             </li>
-
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experiences">Experiences</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -57,43 +56,128 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead text-white text-center">
       <div class="container">
-        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/IMG_0982.jpg" alt=""> -->
-        <img class="img-thumbnail" src="img/IMG_0982.jpg" alt="">
-        <h1 class="text-uppercase mb-0">Gavin S. Lim</h1>
-        <hr class="star-light"> <!-- star -->
-        <h2 class="font-weight-light mb-0">Electrical Engineer </h2>
+        <!-- <img class="img-fluid float-center mb-5 d-block mx-auto" src="img/IMG.jpg" alt=""> -->
+        <!--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
+          <div class="row">
+            <div class="col-md-4">
+              <p>
+                <img class="center-block img-fluid rounded" src="img/IMG.jpg" alt="">
+              </p>
+            </div>
+            <div class="col-md-8 text-secondary col-md-5 ml-auto">
+              <br>
+              <h2 class="text-left"> Hello, </h2>
+              <br>
+              <p class="lead text-left"> My name is Gavin and I am Senior Electrical Engineering student at the University of British Columbia (UBC). Over the last four years, I have been developing my skillset in both hardware and software domains.</p> 
+          </div>
+        
+        <!-- <h1 class="text-uppercase mb-0">Gavin S. Lim</h1> -->
+        <!-- <hr class="star-light"> -->
+        <!-- <h2 class="font-weight-light text-secondary mb-0">Electrical Engineer </h2> -->
       </div>
     </header>
 
     <!-- Education Section -->
-    <section class="bg-primary text-white mb-0" id="education">
+    <section class="bg-primary mb-0" id="education">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">Education</h2>
-        <hr class="star-light mb-5">
+        <h2 class="text-center text-uppercase text-secondary">Education</h2>
+        <hr />
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Hi there, my name is Gavin Lim and I am a senior electrical engineering student at UBC.</p>
+          <div class="col-lg-3 ">
+            <img class="img-fluid" src="img/UBC.png" alt="">
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <div class="col-lg-9 text-secondary mr-auto">
+            <h4> University of British Columbia </h4>
+            <br>
+            <p><strong> Bachelor of Applied Science </strong> - Electrical Engineering (Class of 2019) </p>
+            <p>Relevant Course Topics</p>
+            <ul> 
+              <li>System Software Engineering (CPEN 333) - 94%</li>
+              <li>Signal and Image Processing (ELEC 421) - 78%</li>
+              <li>Power Electronics (ELEC 451) - 80%</li>
+            </ul>
+            <p><strong> Bachelor of Science </strong> - Honours in Biotechnology (Class of 2015) </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <!--
+    <section class="text-white mb-0" id="experiences">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary">Experiences</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid" src="img/intel.png" alt="">
+          </div>
+          <div class="col-lg-4">
+            <img class="img-fluid" src="img/flir_pointgrey.jpg" alt="">
+          </div>
+          <div class="col-lg-4">
+            <img class="img-fluid" src="img/Sailbot.png" alt="">
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
+          <a class="btn btn-xl text-secondary btn-outline-light" href="#">
             <i class="fas fa-download mr-2"></i>
             My Resume
           </a>
         </div>
       </div>
     </section>
+    -->
+    <section class="portfolio" id="experiences">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Experiences</h2>
+        <hr />
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#Intel">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/intel.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/Flir_pointgrey.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" src="img/sailbot.png" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <section class="bg-primary portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Projects</h2>
-        <hr class="star-dark mb-5">
+        <!-- <hr class="star-dark mb-5">-->
+        <hr />
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -159,33 +243,12 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Hi there, my name is Gavin Lim and I am a senior electrical engineering student at UBC.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-          </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fas fa-download mr-2"></i>
-            My Resume
-          </a>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
+        <!-- <hr class="star-dark mb-5"> -->
+        <hr />
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -280,7 +343,7 @@
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
-        <small>Copyright &copy; Your Website 2018</small>
+        <small>Copyright &copy; Gavin Lim 2018</small>
       </div>
     </div>
 
@@ -292,6 +355,32 @@
     </div>
 
     <!-- Portfolio Modals -->
+
+    <!-- Work Models -->
+    <!-- Intel -->
+    <div class="portfolio-modal mfp-hide" id="Intel">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Intel Corporation</h2>
+              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLIR -->
+
+    <!-- Sailbot -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
